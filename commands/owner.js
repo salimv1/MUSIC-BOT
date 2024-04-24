@@ -29,17 +29,17 @@ module.exports = {
 
   run: async (client, interaction) => {
     try {
-      const youtubeLink = 'https://discord.gg/xQF9f9yUEM';
-      const InstagramLink = 'https://www.instagram.com/rtxxgg/';
+      const youtubeLink = '#';
+      const InstagramLink = '#';
       const { EmbedBuilder } = require('discord.js')
         const embed = new EmbedBuilder()
             .setColor('#da2a41')
             .setAuthor({
           name: 'Owner',
-          iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157310253520662638/2443-iconperson.png?ex=651824aa&is=6516d32a&hm=0becc4a0fda01e5a02a63cf098db30c287e60a474f8d2da4ddeae7f47d98a5a3&',
+          iconURL: 'https://media.discordapp.net/attachments/1216793380009283714/1217843144515653764/b333.png?ex=662a69d0&is=66291850&hm=8598c5c834389a7082f574ca63596f8fb9e181c3d05c335f3815e4a3a3973d12&format=webp&quality=lossless&width=1212&height=682&',
           url: 'https://discord.gg/FUEHs7RCqz'
         })
-            .setDescription(`__**About me**__:\n\n ▶️ Myself Shiva aka GlaceYT. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n YouTube : ❤️ [RTX GAMING](${youtubeLink})\n Instagram : 💙 [rtxxgg](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n\n ▶️ developped by simo`)
             .setTimestamp();
       interaction.reply({ embeds: [embed] }).catch(e => {});
 
