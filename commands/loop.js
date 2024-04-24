@@ -51,8 +51,8 @@ module.exports = {
         .setColor('#fc4e03')
         .setAuthor({
         name: 'Loop Your Melodies',
-        iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157318080670728283/7905-repeat.gif?ex=65182bf4&is=6516da74&hm=9ae58f40fcea5dc42a2a992bbd159d50116b3bafe5c5f7728e3a5276442efd2a&', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        iconURL: 'https://media.discordapp.net/attachments/1216793380009283714/1217843144515653764/b333.png?ex=662a69d0&is=66291850&hm=8598c5c834389a7082f574ca63596f8fb9e181c3d05c335f3815e4a3a3973d12&format=webp&quality=lossless&width=1212&height=682&', 
+        url: 'https://discord.gg/ba3be3ipvp'
     })
         .setDescription('**Looping it! Let the music play on and on. **')
      
